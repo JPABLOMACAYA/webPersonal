@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img class="img-fluid" src="src/logo_web2_100x53.png" alt="logo">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html"
+                            >HomePage</a
+                        >
+                        <a class="nav-link" href="responsive.html">ResponsivePage</a>
+                        <a class="nav-link" href="textContent.html">TextContent</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid" id="containerClaro">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    #1 Item del acordeón
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>Esto es un acordeón con contenido en su interior.</strong> Esta primera sección se configuró para que esté abierta apenas se cargue la página.
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    #2 Item del acordeón
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>Aquí puedes expandir y volver a ocultar otra sección con contenido en su interior.</strong>
+                    </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    #3 Item del acordeón
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                    <strong>Este es el tercer ítem.</strong> Puedes personalizar el contenido que necesites.
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="container-fluid" id="containerOscuro">
+            <div class="row align-items-center">
+                <div class="container-fluid bg-silver">
+                    <p>Tu puedes personlizar tus textos y <mark>destacar</mark> lo que necesites.</p>
+                    <p><del>También puedes tachar un texto.</del></p>
+                    <p><u>Subrayarlo.</u></p>
+                    <h1>Cambiar su tamaño.</h1>
+                    <p><strong>Aumentar su grosor.</strong></p>
+                    <p><em>Entre otras.</em></p>
+                </div>
+            </div>
+        </div>
+  
+
+
+        <div class="container-fluid" id="containerClaro">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Ciudad</th>
+                    <th scope="col">Cuenta</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark Oslo</td>
+                    <td>Middletown</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob Watson</td>
+                    <td>Jinnit</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Bender Forever</td>
+                    <td>Lavende</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Jacob James</td>
+                    <td>Toronto</td>
+                    <td>@twitter</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Julia Roberta</td>
+                    <td>Pulsinova</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="container-fluid" id="containerOscuro">
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col grid-delimited cel-1">
+                    Te presento algunos estilos de letra que puedes escoger
+                  </div>
+                  <div class="col grid-delimited cel-2">
+                    Esta es la alternativa N°2
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col grid-delimited cel-3">
+                    Infaltable que hubiese una 3ra opción
+                  </div>
+                  <div class="col grid-delimited cel-4">
+                    Dicen que la 4ta sirve para todo
+                  </div>
+                  <div class="col grid-delimited cel-5">
+                    Esta es la quinta. ¿Aún no te decides?
+                  </div>
+                </div>
+              </div>         
+        </div>
+
+        <div class="container-fluid text-center">
+            <div class="row row-cols-3" id="rowFooter">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">¿Necesitas acceder desde múltiples dispositivos?</li>
+                        <li class="list-group-item">¿Necesitas un sitio web responsivo para tus clientes?</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="src/logo_web2_250x132.png" alt="logo">
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Haz click aquí!
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                    Hola, este cuadro se denomina "Modal". Aquí puedes incluir información y también enlaces a otro sitio web. Yo por ejemplo enlacé mi propio número de whatsapp.
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    <button type="button" class="btn btn-primary" role="link" onclick="window.location='https://api.whatsapp.com/send/?phone=56962968597&text=Me+interesa+crear+un+sitio+web+&type=phone_number&app_absent=0'">Contactar</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">¿Deseas contactarme?</li>
+                        <li class="list-group-item">
+                            +569 6296 8597
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

@@ -1,0 +1,132 @@
+
+#rowClaro {
+    background-color: rgb(141, 185, 235);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#rowOscuro {
+    background-color: rgb(20, 31, 54);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#containerOscuro {
+    background-color: rgb(20, 31, 54);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#containerClaro {
+    background-color: rgb(141, 185, 235);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rowFooter {
+    background-color: rgb(206, 210, 219);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item {
+    background-color: rgba(206, 210, 219, 0);
+}
+
+.grid-delimited {
+    background-color: rgb(186, 185, 233);
+    border-style: solid;
+    border-color: rgb(20, 31, 54);
+}
+
+.cel-1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 40px;
+}
+
+.cel-2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+.cel-3 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+.cel-4 {
+    font-family: 'Martel', serif;
+    font-size: 40px;
+}
+
+.cel-5 {
+    font-family: 'Special Elite', cursive;
+    font-size: 40px;
+}
+
+
+.bg-silver {
+    background-color: rgb(186, 185, 233);
+}
+
+.homePgCarouselImg {
+    max-height: 600px;
+    width: max-content;
+}
+
+.little-card {
+    max-height: 180px;
+}
+
+.LittleCardBody {
+    min-height: 180px;
+}
+
+#accordionExample {
+    width: 400px;
+}
+
+#logoWApp {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+#imgInicio1 {
+    max-width: 540px;
+    max-height: 440px;
+}
+
+#tecIcons {
+    max-width: 500px;
+    max-height: 680px;
+}
+
+#imgStart {
+    max-width: 500px;
+    max-height: 350px
+}
+
+.firstCards {
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+}
