@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Home</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img class="img-fluid" src="src/logo_web2_100x53.png" alt="logo">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="index.html"
+                            >HomePage</a
+                        >
+                        <a class="nav-link" href="responsive.html">ResponsivePage</a>
+                        <a class="nav-link" href="textContent.html">TextContent</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="row row-cols-auto" id="rowClaro">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="card text-bg-dark mb-3 firstCards" style="max-width: 24rem;">
+                                <div class="card-header">Bienvenid@</div>
+                                <div class="card-body">
+                                <h2 class="card-title">Mi nombre es Juan Pablo Macaya</h2>
+                                <p class="card-text">y esta es mi web personal.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="card text-bg-secondary mb-3 firstCards" style="max-width: 24rem;">
+                                <div class="card-header">About me</div>
+                                <div class="card-body">
+                                <h2 class="card-title">Soy desarrollador de aplicaciones,</h2>
+                                <p class="card-text">enfocado en entornos web responsivos y acceso multidispositivo.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <img class="img-fluid rounded" id="imgStart" src="https://images.pexels.com/photos/1251844/pexels-photo-1251844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="iconos">
+                        </li>
+                        <li class="list-group-item">
+                        </li>
+                    </ul>
+                </div>
+            </div>            
+            <div class="row row-cols-auto" id="rowOscuro">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="card text-bg-primary mb-3 firstCards" style="max-width: 24rem;">
+                                <div class="card-header">Acerca de las tecnologías que utilizo.</div>
+                                <div class="card-body">
+                                <h2 class="card-title">Front-end</h2>
+                                <p class="card-text">HTML 5, CSS 3, JavaScript y Bootstrap, son mi combinación preferida para crear páginas web responsive. Si además necesito contenido dinámico, agrego EJS o voy directamente por React.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="card text-bg-dark mb-3 firstCards" style="max-width: 24rem;">
+                                <div class="card-header">Acerca de las tecnologías que utilizo.</div>
+                                <div class="card-body">
+                                <h2 class="card-title">Back-end</h2>
+                                <p class="card-text">Node JS en conjunto con express, además de MongoDB y Firebase.
+                                Soy fan de las bases de datos NoSQL y almacenamiento en la nube. 
+                                Si llego a requerir una base de datos relacional, mi preferido es PostgreSQL.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <img class="img-fluid rounded" id="tecIcons" src="src/iconos_cv_ok.png" alt="iconos">
+                        </li>
+                        <li class="list-group-item">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid text-center">
+            <div class="row row-cols-3" id="rowFooter">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">¿Necesitas acceder desde múltiples dispositivos?</li>
+                        <li class="list-group-item">¿Necesitas un sitio web responsivo para tus clientes?</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="src/logo_web2_250x132.png" alt="logo">
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <a href="https://api.whatsapp.com/send/?phone=56962968597&text=Me+interesa+crear+un+sitio+web+&type=phone_number&app_absent=0">
+                                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/1077/1077004.png" alt="logoWApp" id="logoWApp">
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            Te dejo mi contacto
+                        </li>
+                        <li class="list-group-item">
+                            +569 6296 8597
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
